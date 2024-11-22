@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cm5xgeubvukgf"]
+
+[ext_resource type="PackedScene" uid="uid://dkik8ws7syv1v" path="res://scenes/paddle.tscn" id="1_7im0g"]
+[ext_resource type="Texture2D" uid="uid://g47hnngnypvn" path="res://assets/paddleRed.png" id="2_csdj2"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Paddle2" parent="." instance=ExtResource("1_7im0g")]
+position = Vector2(2, 80)
+
+[node name="PaddleRed" type="Sprite2D" parent="."]
+position = Vector2(1131, 221)
+rotation = 1.5708
+texture = ExtResource("2_csdj2")
